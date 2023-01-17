@@ -1,0 +1,45 @@
+$PrimaryColor: #FFFFFF;
+$secondaryColor: #1F2128;
+$terColor:#72767C;
+$quatColor: #A162F7;
+
+.carCard-container{
+    background-color: $PrimaryColor;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+    .fav-icon{
+        cursor: pointer;
+    }
+    .car-name{
+        color: $secondaryColor;
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.4375rem;
+    }
+    .car-type{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.3125rem;
+        color: $terColor;
+    }
+    .car-img-container {
+        width: 95%;
+        .car-img{
+            max-width: 16.875rem;
+            max-height: 6.25rem;
+        }
+    }
+    .normal-text{
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.3125rem;
+        color: $terColor;
+    }
+    .bold-text{
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 1.4375rem;
+        color: $secondaryColor;
+    }
+}

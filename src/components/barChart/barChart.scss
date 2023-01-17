@@ -1,0 +1,16 @@
+$PrimaryColor: #FFFFFF;
+$secondaryColor: #1F2128;
+$terColor:#72767C;
+$quatColor: #A162F7;
+
+.bar-chart-container{
+    background-color: $PrimaryColor;
+    border-radius: .875rem;
+    padding: 1.75rem 1.5rem;
+    .sun-title{
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.9375rem;
+        color: #1F2128;
+    }
+}

@@ -1,0 +1,56 @@
+$PrimaryColor: #FFFFFF;
+$secondaryColor: #1F2128;
+$terColor:#72767C;
+$quatColor: #A162F7;
+
+.navbar-container{
+    width: 100%;
+    padding: .9375rem 1.875rem;
+    background-color:$PrimaryColor;
+    border-left: .125rem solid #F3F5F8;
+    
+    .nav-search-container {
+        width: 40%;
+        background-color: #F3F5F8;
+        padding: .5rem .875rem;
+        border-radius: 0.3125rem;
+        input {
+            width: 85%;
+            padding: 0.125rem 0.625rem;
+            border-radius: 0.3125rem;
+            border: none;
+            color: $terColor;
+            background-color: #F3F5F8;
+            font-weight: 400;
+            font-size: .875rem;
+            line-height: 1.3125rem;
+        }
+        input:hover,
+        input:focus {
+            outline: none;
+        }
+    }
+
+    .profile-img{
+        width: 2.625rem;
+        height: 2.625rem;
+        border-radius: 50%;
+    }
+    
+    @media(max-width:"700px"){
+        .nav-search-container{
+            width: 60%;
+        }
+        .notification-icon{
+            display: none;
+        }
+    }
+    @media(max-width:"570px"){
+        .nav-search-container{
+            width: 70%;
+        }
+        .notification-icon{
+            display: none;
+        }
+    }
+}

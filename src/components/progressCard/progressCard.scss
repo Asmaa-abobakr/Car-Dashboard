@@ -1,0 +1,24 @@
+$PrimaryColor: #FFFFFF;
+$secondaryColor: #1F2128;
+$terColor:#72767C;
+$quatColor: #A162F7;
+
+.progress-card-container{
+    padding: 1.4063rem 3.75rem;
+    border-radius: .875rem;
+
+    .title{
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.5625rem;
+        color: #FFFFFF;
+    }
+    .progress-chart{
+        .CircularProgressbar-text{
+            fill: $secondaryColor;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.3125rem;
+        }
+    }
+}

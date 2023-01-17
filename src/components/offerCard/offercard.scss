@@ -1,0 +1,122 @@
+$PrimaryColor: #FFFFFF;
+$secondaryColor: #1F2128;
+$terColor:#72767C;
+$quatColor: #A162F7;
+
+.offer-card-container{
+    padding: 1.4375rem 1.8125rem;
+    background-color: $PrimaryColor;
+    border-radius: .625rem;
+
+    .title{
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.625rem;
+        color: $secondaryColor;
+    }
+    .price-text{
+        font-weight: 500;
+        font-size: .625rem;
+        line-height: 1rem;
+        color: #A4A5A6;
+
+        .price{
+            font-weight: 500;
+            font-size: 1.125rem;
+            line-height: 1.4375rem;
+            color: #FF6464;
+        }
+    }
+    .normal-text{
+        font-weight: 500;
+        font-size: .6875rem;
+        line-height: 1rem;
+        color: $terColor;
+    }
+    .see-more-btn{
+        background: #FF6370;
+        box-shadow: 0px 1px 2px rgba(252, 189, 189, 0.25);
+        border-radius: 15px;
+        color: $PrimaryColor;
+        border: none;
+        padding: 0 1.25rem;
+    }
+
+    .offer-icon{
+        border-radius: 8px;
+        padding: 8px;
+    }
+    .offer-price{
+        font-weight: 500;
+        font-size: 1.25rem;
+        line-height: 1.625rem;
+    }
+
+    .blue{
+        color: #407EF9;
+    }
+    .bg-blue{
+        background-color: rgba(64, 126, 249, 0.1);
+    }
+
+    .red{
+        color: #FF6370;
+    }
+    .bg-red{
+        background-color: rgba(255, 126, 134, 0.1);
+    }
+    .purple{
+        color: #A162F7;
+    }
+    .bg-purple{
+        background-color: rgba(161, 98, 247, 0.1);
+    } 
+      
+    .share-chart{
+        width: 57%;
+        margin-left: 12%;
+        .progress-chart{
+            .CircularProgressbar-path{
+                stroke: #70CF97;
+            }
+            .CircularProgressbar-text{
+                fill: $secondaryColor;
+                font-weight: 700;
+                font-size: 1rem;
+                line-height: 1.3125rem;
+            }
+        }
+        .small-text{
+            font-weight: 500;
+            font-size: .5625rem;
+            line-height: .8125rem;
+            color: #70CF97;
+        }
+        .normal-text{
+            font-size: 10px;
+        }
+    }
+
+    .childern-chart-container{
+        width: 70%;
+        .childern-chart{
+            .CircularProgressbar-text{
+                fill: $secondaryColor;
+                font-weight: 700;
+                font-size: 1.25rem;
+                line-height: 1.3125rem;
+            }
+        }
+    }
+
+    @media (max-width: '1100px') {
+       .childern-chart-container{
+         width: 40%;
+       }
+        .share-chart{
+         width: 35%;
+         margin-left: 1%;
+       }
+
+    } 
+}

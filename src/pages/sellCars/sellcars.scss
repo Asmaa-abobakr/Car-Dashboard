@@ -1,0 +1,25 @@
+$PrimaryColor: #FFFFFF;
+$secondaryColor: #1F2128;
+$terColor:#72767C;
+$quatColor: #A162F7;
+
+.sell-cars-container{
+    width: 95%;
+
+    .sell-dropDown{
+        button{
+            border-radius: 1.25rem !important;
+            background-color: $PrimaryColor !important;
+            padding: .4688rem 1.25rem !important;
+            border: none;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.3125rem;
+            color: $quatColor;
+            &::after{
+                margin-left: 1.25rem;
+                color: #B4B4C6;
+            }
+        }
+    }
+}
